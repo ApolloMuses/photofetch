@@ -1,3 +1,7 @@
+/**
+ * using flatlist to lazy load data to improve perfornace
+ * as we are getting 5000 items at once
+ **/
 import React from 'react';
 import { StyleSheet, Text, View, FlatList, ActivityIndicator } from 'react-native';
 import { connect } from 'react-redux';
